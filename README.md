@@ -37,9 +37,13 @@ cookies if you want to save (3)
 
 This is the minimum html required to embed MaryCalendar in your site: 
 
+~~~~~~~~~~
+
 <meta charset="utf-8">
 <script src="MaryCalendar.js"></script>
 <div id="MaryCalendar"></div>
+
+~~~~~~~~~~
 
 A <meta> tag with UTF-8 or higher.
 A script tag containing where to find MaryCalendar. This example assumes she's in the same directory as the html file loading her.
@@ -47,7 +51,11 @@ A div with the id "MaryCalendar". This is her home, so take care of her, alright
 
 She defaults to a size of 336px squared, but you can change this in her tag, like so: 
 
+~~~~~~~~~~
+
 <div id="MaryCalendar" size="420px"></div>
+
+~~~~~~~~~~
 
 The suggested minimum size is 216px.
 Along with the size, you may style her tag however you like. But she will override three properties: border-box, width, and height. Width and height are set to your chosen size, and border-box ensures an accurate rendering.
@@ -66,6 +74,8 @@ Don't Panic
 
 During testing, I encountered a rare bug that ended up with me not being able to access any of my notes. The bug is fixed now, but should there ever be any difficulty getting to your notes in MaryCalendar, you can copy and paste the following code into your browser's console while the current web page containing her is open. (To access the console try hitting 'F12' on your keyboard or looking in the options menu. Mobile generally doesn't allow access to the console, so try this on desktop/laptop.)
 
+~~~~~~~~~~
+
 (function getNotes() {
   const notes = Object.create(null);
   for (let key in localStorage) {
@@ -77,6 +87,8 @@ During testing, I encountered a rare bug that ended up with me not being able to
   return JSON.stringify(notes, null, "  ")
     .replace(/\n/g, "\n\n");
 }());
+
+~~~~~~~~~~
 
 Now you can copy her text and save it in any text editor. Make sure to leave out any quotes next to the '{' and '}' symbols. After resetting the calendar, you can try restoring your notes normally. 
 
