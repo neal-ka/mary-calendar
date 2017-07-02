@@ -46,7 +46,9 @@ This is the minimum html required to embed MaryCalendar in your site:
 ~~~~~~~~~~
 
 A <meta> tag with UTF-8 or higher.
+
 A script tag containing where to find MaryCalendar. This example assumes she's in the same directory as the html file loading her.
+
 A div with the id "MaryCalendar". This is her home, so take care of her, alright?
 
 She defaults to a size of 336px squared, but you can change this in her tag, like so: 
@@ -58,8 +60,11 @@ She defaults to a size of 336px squared, but you can change this in her tag, lik
 ~~~~~~~~~~
 
 The suggested minimum size is 216px.
+
 Along with the size, you may style her tag however you like. But she will override three properties: border-box, width, and height. Width and height are set to your chosen size, and border-box ensures an accurate rendering.
+
 And although it's not required that you use a <div> tag, some other tags may not behave as expected.
+
 She should not interfere with any of your CSS and hopefully none of your JavaScript. She does use local storage (or document.cookie) to save (3). So don't completely clear them, and everything should be okay.
 
 (2) How to Config
