@@ -6,8 +6,6 @@ Any user-input found in the program is entirely left under the domain of the bro
 
 As commanded by our Master, I cannot swear anything (Matthew 5:33-37), so I'm not making any promises or guarantees. But I wish that you find life, love, happiness, and for MaryCalendar to serve you well. May the Kingdom come, and Yahweh's will be done! 
 
-~~~~~~~~~~
-
 FEATURES: 
 
 Sabbaths and Feast Days
@@ -30,8 +28,6 @@ REQUIRES:
 an up-to-date browser
 JavaScript
 cookies if you want to save (3)
-
-~~~~~~~~~~
 
 (1) How to Embed:
 
@@ -79,8 +75,6 @@ During testing, I encountered a rare bug that ended up with me not being able to
 }());
 
 Now you can copy her text and save it in any text editor. Make sure to leave out any quotes next to the '{' and '}' symbols. After resetting the calendar, you can try restoring your notes normally. 
-
-~~~~~~~~~~
 
 (א) Inspiration from the Scripture (ת)
 
