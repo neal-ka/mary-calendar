@@ -63,7 +63,7 @@ The suggested minimum size is 216px.
 
 Along with the size, you may style her tag however you like. But she will override three properties: border-box, width, and height. Width and height are set to your chosen size, and border-box ensures an accurate rendering.
 
-And although it's not required that you use a <div> tag, some other tags may not behave as expected.
+And although it's not required that you use a div tag, some other tags may not behave as expected.
 
 She should not interfere with any of your CSS and hopefully none of your JavaScript. She does use local storage (or document.cookie) to save (3). So don't completely clear them, and everything should be okay.
 
