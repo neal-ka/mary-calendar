@@ -6,6 +6,8 @@ Any user-input found in the program is entirely left under the domain of the bro
 
 As commanded by our Master, I cannot swear anything (Matthew 5:33-37), so I'm not making any promises or guarantees. But I wish that you find life, love, happiness, and for MaryCalendar to serve you well. May the Kingdom come, and Yahweh's will be done! 
 
+~~~~~~~~~~
+
 FEATURES: 
 
 Sabbaths and Feast Days
@@ -28,6 +30,8 @@ REQUIRES:
 an up-to-date browser
 JavaScript
 cookies if you want to save (3)
+
+~~~~~~~~~~
 
 (1) How to Embed:
 
@@ -78,23 +82,23 @@ Now you can copy her text and save it in any text editor. Make sure to leave out
 
 (א) Inspiration from the Scripture (ת)
 
-~~~Matthew 5:17-20~~~
+Matthew 5:17-20
 
 17 Think not that I am come to destroy the law, or the prophets: I am not come to destroy, but to fulfil. 18 For verily I say unto you, Till heaven and earth pass one jot or one tittle shall in no wise pass from the law, till all be fulfilled. 19 Whosoever therefore shall break one of these least commandments, and shall teach men so, he shall be called the least in the kingdom of heaven: but whosoever shall do and teach them, the same shall be called great in the kingdom of heaven. 20 For I say unto you, that except your righteousness shall exceed the righteousness of the scribes and Pharisees, ye shall in no case enter into the kingdom of heaven.
 
-~~~Matthew 22:34-40~~~
+Matthew 22:34-40
 
 34 But when the Pharisees had heard that he had put the Sadducees to silence, they were gathered together. 35 Then one of them, which was a lawyer, asked him a question, tempting him, and saying, 36 Master, which is the great commandment in the law? 37 Yahshua said unto him, Thou shalt love Yahweh thy God with all thy heart, and with all thy soul, and with all thy mind. 38 This is the first and great commandment. 39 And the second is like unto it, Thou shalt love thy fellow kin as thyself. 40 On these two commandments hang all the law and the prophets.
 
-~~~John 14:15~~~
+John 14:15
 
 15 If ye love me, keep my commandments.
 
-~~~John 15:10~~~
+John 15:10
 
 10 If ye keep my commandments, ye shall abide in my love; even as I have kept my Father's commandments, and abide in his love.
 
-~~~Leviticus 23~~~
+Leviticus 23
 
 Feasts of Yahweh
 
@@ -128,6 +132,6 @@ The Feast of Tabernacles
 
 33 And Yahweh spake unto Moses, saying, 34 Speak unto the children of Israel, saying, The fifteenth day of this seventh month shall be the feast of tabernacles for seven days unto Yahweh. 35 On the first day shall be an holy convocation: ye shall do no servile work therein. 36 Seven days ye shall offer an offering made by fire unto Yahweh: on the eighth day shall be an holy convocation unto you; and ye shall offer an offering made by fire unto Yahweh: it is a solemn assembly; and ye shall do no servile work therein. 37 These are the feasts of Yahweh, which ye shall proclaim to be holy convocations, to offer an offering made by fire unto Yahweh, a burnt offering, and a meat offering, a sacrifice, and drink offerings, every thing upon his day: 38 Beside the sabbaths of Yahweh, and beside your gifts, and beside all your vows, and beside all your freewill offerings, which ye give unto Yahweh. 39 Also in the fifteenth day of the seventh month, when ye have gathered in the fruit of the land, ye shall keep a feast unto Yahweh seven days: on the first day shall be a sabbath, and on the eighth day shall be a sabbath. 40 And ye shall take you on the first day the boughs of goodly trees, branches of palm trees, and the boughs of thick trees, and willows of the brook; and ye shall rejoice before Yahweh your God seven days. 41 And ye shall keep it a feast unto Yahweh seven days in the year. It shall be a statute for ever in your generations: ye shall celebrate it in the seventh month. 42 Ye shall dwell in booths seven days; all that are Israelites born shall dwell in booths: 43 That your generations may know that I made the children of Israel to dwell in booths, when I brought them out of the land of Egypt: I am Yahweh your God. 44 And Moses declared unto the children of Israel the feasts of Yahweh.
 
-~~~I Corinthians 5:7-8~~~
+I Corinthians 5:7-8
 
 7 Purge out therefore the old leaven, that ye may be a new lump, as ye are unleavened. For even Christ our passover is sacrificed for us: 8 Therefore let us keep the feast, not with old leaven, neither with the leaven of malice and wickedness; but with the unleavened bread of sincerity and truth.
