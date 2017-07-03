@@ -75,6 +75,8 @@ Besides the options that are in her settings, you can also configure the JavaScr
 
 Enabled cookies allows for the preferred saving method: HTML5 Local Storage. But if the browser doesn't have local storage, MaryCalendar will still try to save settings with cookies, however not any notes. This is due to cookie-size constraints on some browsers. Saving can be completely disabled in the config, or by turning off cookies altogether. 
 
+If you want to see what MaryCalendar is storing, open the browser's console and type in "localStorage" and/or "document.cookie". She uses the prefix "MaryCalendar_" for all her variables. 
+
 Don't Panic
 
 During testing, I encountered a rare bug that ended up with me not being able to access any of my notes. The bug is fixed now, but should there ever be any difficulty getting to your notes in MaryCalendar, you can copy and paste the following code into your browser's console while the current web page containing her is open. (To access the console try hitting 'F12' on your keyboard or looking in the options menu. Mobile generally doesn't allow access to the console, so try this on desktop/laptop.)
