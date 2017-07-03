@@ -45,7 +45,7 @@ This is the minimum html required to embed MaryCalendar in your site:
 
 ~~~~~~~~~~
 
-A <meta> tag with UTF-8 or higher.
+A meta tag with UTF-8 or higher.
 
 A script tag containing where to find MaryCalendar. This example assumes she's in the same directory as the html file loading her.
 
