@@ -23,7 +23,7 @@ May the Kingdom come, and Yahweh's will be done!
 "use strict";
 
 //+++---Version---+++//
-const MaryCalendarVersion = "0.1.0 Aleph";
+const MaryCalendarVersion = "0.1.1 aleph";
 
 //+++---Config---+++//
 const config = {
@@ -483,7 +483,7 @@ const whenMaryDom = function (MaryDomObj, context, multiple) {
     return results;
   }
   MaryDomObj.forEach(function (node) {
-    results = results.concat(whenNode(node, null, multiple).splice(1));
+    results = results.concat(whenNode(node, null, multiple).slice(1));
   });
   if (context === "before") {
     results = results.concat(MaryDomObj);
@@ -542,7 +542,6 @@ const whenString = function (string, context, multiple) {
     });
   } else if (/^SHOW_/.test(string)) {
     // node iterator
-    string = "SHOW" + string.match(/_.+/)[0];
     results = whenNumber(NodeFilter[string], context, multiple);
   } else {
     // querySelectorAll
@@ -1482,7 +1481,7 @@ return MaryDom;
 //+++---Models---+++//
 MaryManage.define("model/vars", [
   "utils"
-], function modelV(utils, require) {
+], function modelVars(utils, require) {
 
 /* constants */
 const newObj = utils.newObj;
@@ -1717,7 +1716,7 @@ return vars;
 
 MaryManage.define("model/calendar", [
   "utils"
-], function modelC(utils, require) {
+], function modelCalendar(utils, require) {
 
 /* constants */
 const newObj = utils.newObj;
@@ -3837,7 +3836,7 @@ MaryManage.define("view/settings", [
   "MaryMessage",
   "MaryDom",
   "view/modals"
-], function viewS(utils, MaryMessage, MaryDom, modals, require) {
+], function viewSettings(utils, MaryMessage, MaryDom, modals, require) {
 
 /* constants */
 const newObj = utils.newObj;
@@ -4243,7 +4242,7 @@ MaryManage.define("view/license", [
   "utils",
   "MaryMessage",
   "MaryDom"
-], function viewL(utils, MaryMessage, MaryDom, require) {
+], function viewLicense(utils, MaryMessage, MaryDom, require) {
 
 /* constants */
 const newObj = utils.newObj;
@@ -4423,6 +4422,11 @@ Storage. But if the browser doesn't have local storage, MaryCalendar
 will still try to save settings with cookies, however not any notes. 
 This is due to cookie-size constraints on some browsers. Saving can be 
 completely disabled in the config, or by turning off cookies altogether.
+<br><br>
+
+If you want to see what MaryCalendar is storing, open the browser's 
+console and type in "localStorage" and/or "document.cookie". She uses 
+the prefix "MaryCalendar_" for all her variables.
 <br><br>
 
 <div style="text-align: center">Don't Panic</div><br>
@@ -4761,7 +4765,7 @@ MaryManage.define("view/commons", [
   "utils",
   "MaryMessage",
   "MaryDom"
-], function viewC(utils, MaryMessage, MaryDom, require) {
+], function viewCommons(utils, MaryMessage, MaryDom, require) {
 
 /* constants */
 const newObj = utils.newObj;
@@ -4931,12 +4935,12 @@ return true;
 }, true);
 
 //+++---Control---+++//
-MaryManage.define("control", [
+MaryManage.define("control/main", [
   "utils",
   "MaryMessage",
   "model/vars",
   "view/modals"
-], function control(utils, MaryMessage, vars, modals, require) {
+], function controlMain(utils, MaryMessage, vars, modals, require) {
 
 /* constants */
 const newObj = utils.newObj;
@@ -5376,12 +5380,12 @@ return true;
 }, true);
 
 //+++---Initialize---+++//
-MaryManage.define("initialize", [
+MaryManage.define("control/initialize", [
   "utils",
   "MaryMessage",
   "MaryDom",
   "model/vars"
-], function initialize(utils, MaryMessage, MaryDom, vars, require) {
+], function controlInitialize(utils, MaryMessage, MaryDom, vars, require) {
 
 /* constants */
 const win = MaryDom(window);
@@ -5391,7 +5395,7 @@ const initialize = function () {
   const isStandAlone = utils.isStandAlone();
   require("view/css");
   require("view/commons");
-  require("control");
+  require("control/main");
   if (isStandAlone === false) {
     MaryMessage.publish("disable-stand-alone");
   }
