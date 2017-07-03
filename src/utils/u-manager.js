@@ -1,5 +1,5 @@
 //+++---Version---+++//
-const MaryCalendarVersion = "0.1.1 Aleph";
+const MaryCalendarVersion = "0.1.1 aleph";
 
 //+++---Config---+++//
 const config = {

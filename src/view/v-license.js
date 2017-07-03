@@ -184,6 +184,11 @@ This is due to cookie-size constraints on some browsers. Saving can be
 completely disabled in the config, or by turning off cookies altogether.
 <br><br>
 
+If you want to see what MaryCalendar is storing, open the browser's 
+console and type in "localStorage" and/or "document.cookie". She uses 
+the prefix "MaryCalendar_" for all her variables.
+<br><br>
+
 <div style="text-align: center">Don't Panic</div><br>
 
 During testing, I encountered a rare bug that ended up with me not being 

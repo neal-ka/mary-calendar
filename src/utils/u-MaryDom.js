@@ -106,7 +106,7 @@ const whenMaryDom = function (MaryDomObj, context, multiple) {
     return results;
   }
   MaryDomObj.forEach(function (node) {
-    results = results.concat(whenNode(node, null, multiple).splice(1));
+    results = results.concat(whenNode(node, null, multiple).slice(1));
   });
   if (context === "before") {
     results = results.concat(MaryDomObj);
@@ -165,7 +165,6 @@ const whenString = function (string, context, multiple) {
     });
   } else if (/^SHOW_/.test(string)) {
     // node iterator
-    string = "SHOW" + string.match(/_.+/)[0];
     results = whenNumber(NodeFilter[string], context, multiple);
   } else {
     // querySelectorAll
