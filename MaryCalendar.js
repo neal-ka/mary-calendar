@@ -23,7 +23,7 @@ May the Kingdom come, and Yahweh's will be done!
 "use strict";
 
 //+++---Version---+++//
-const MaryCalendarVersion = "0.1.1 aleph";
+const MaryCalendarVersion = "v0.1.2 aleph";
 
 //+++---Config---+++//
 const config = {
@@ -34,11 +34,20 @@ const config = {
   defaultNoSeconds: false,
   defaultTheme: "Sky",
   defaultEquinoxes: {
-    // for current and future
+    // these are UTC + 02:00, Jerusalem time
+    // but can be any time zone or length
     "2017": "March 20 12:29 PM 2017",
     "2018": "March 20 6:15 PM 2018",
     "2019": "March 20 11:58 PM 2019",
-    "2020": "March 20 5:50 AM 2020"
+    "2020": "March 20 5:50 AM 2020",
+    "2021": "March 20 11:37 AM 2021",
+    "2022": "March 20 5:33 PM 2022",
+    "2023": "March 20 11:24 PM 2023",
+    "2024": "March 20 5:06 AM 2024",
+    "2025": "March 20 11:01 AM 2025",
+    "2026": "March 20 4:46 PM 2026",
+    "2027": "March 20 10:25 PM 2027",
+    "2028": "March 20 4:17 AM 2028"
   }
 };
 
